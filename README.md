@@ -34,7 +34,6 @@ Open up index.html and copy one of the divs in the "panels" section. It will loo
   </div>
   <section>
     <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </section>
 </div>
 ```
@@ -49,3 +48,7 @@ When you are ready to ship off your code for a pull request, make sure you are s
 - `git add .`
 - `git commit -m "<your message here>"`
 - `git push`
+- `git push --set-upstream origin <name of your branch>`
+- then head on over to your commit on Github and click that big green "Compare & pull request" button.
+
+Thanks for contributing!!!
