@@ -2,68 +2,209 @@
 
 $base-text-size: 16px;
 $base-font-family: sans-serif;
-
-html {
-  @include full-height;
-}
+$eczar: 'Eczar', serif;
+$work-sans: 'Work Sans', sans-serif;
 
 body {
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
+
+  h1 {
+    font-family: $eczar;
+    font-weight: 800;
+  }
+
+  h2 {
+    font-family: $eczar;
+    font-size: 3em;
+    font-weight: 700;
+    padding: 25px 10%;
+  }
+
+  p {
+    font-family: $work-sans;
+    font-size: 1.2em;
+    font-weight: 300;
+  }
 }
 
 html {
   box-sizing: border-box;
   background: #e8e8e8;
   font-family: 'helvetica neue', sans-serif;
-  font-size: 20px;
-  font-weight: 200;
 }
 
-body {
+.header {
+  background: #202428;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f4f4f4;
+  text-transform: uppercase;
+  font-size: 2em;
+  padding: 25px;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  // box-sizing: inherit;
 }
 
 .panels {
   min-height: 100vh;
   overflow: hidden;
   display: flex;
+  flex-direction: column;
 }
 
 .panel {
-  background: #6b0f9c;
-  box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.1);
-  color: white;
+  background: #e8e8e8;
+  color: #e8e8e8;
   text-align: center;
-
-  /* Safari transitionend event.propertyName === flex */
-
-  /* Chrome + FF transitionend event.propertyName === flex-grow */
   transition:
     font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11),
     flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11),
     background 0.2s;
-  font-size: 20px;
   background-size: cover;
   background-position: center;
-  flex: 1;
   justify-content: center;
   align-items: center;
   display: flex;
+  flex: 1;
   flex-direction: column;
+  overflow: hidden;
+
+  .profile-pic {
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    background: center / contain;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+
+    p {
+      padding: 0 50px;
+    }
+  }
 }
 
-.panel1 { background-image: url(../../public/images/background-pics/elephants.jpg); }
-.panel2 { background-image: url(../../public/images/background-pics/elephants.jpg); }
-.panel3 { background-image: url(../../public/images/background-pics/elephants.jpg); }
-.panel4 { background-image: url(../../public/images/background-pics/elephants.jpg); }
-.panel5 { background-image: url(../../public/images/background-pics/elephants.jpg); }
+.panel-001 {
+  background-image: url(../../public/images/background-pics/path-001.jpg);
+
+  .profile-pic {
+    background-image: url(../../public/images/profile-pics/profile-mickey.jpg);
+  }
+}
+
+.panel-002 {
+  background-image: url(../../public/images/background-pics/path-002.jpg);
+
+  .profile-pic {
+    background-image: url(../../public/images/profile-pics/profile-mickey.jpg);
+  }
+}
+
+.panel-003 {
+  background-image: url(../../public/images/background-pics/path-003.jpg);
+
+  .profile-pic {
+    background-image: url(../../public/images/profile-pics/profile-mickey.jpg);
+  }
+}
+
+.panel-004 {
+  background-image: url(../../public/images/background-pics/path-004.jpg);
+
+  .profile-pic {
+    background-image: url(../../public/images/profile-pics/profile-mickey.jpg);
+  }
+}
+
+.panel-005 {
+  background-image: url(../../public/images/background-pics/path-005.jpg);
+
+  .profile-pic {
+    background-image: url(../../public/images/profile-pics/profile-mickey.jpg);
+  }
+}
+
+.panel-006 {
+  background-image: url(../../public/images/background-pics/path-006.jpg);
+
+  .profile-pic {
+    background-image: url(../../public/images/profile-pics/profile-mickey.jpg);
+  }
+}
+
+.panel-007 {
+  background-image: url(../../public/images/background-pics/path-007.jpg);
+
+  .profile-pic {
+    background-image: url(../../public/images/profile-pics/profile-mickey.jpg);
+  }
+}
+
+.panel-008 {
+  background-image: url(../../public/images/background-pics/path-008.jpg);
+
+  .profile-pic {
+    background-image: url(../../public/images/profile-pics/profile-mickey.jpg);
+  }
+}
+
+.panel-009 {
+  background-image: url(../../public/images/background-pics/path-009.jpg);
+
+  .profile-pic {
+    background-image: url(../../public/images/profile-pics/profile-mickey.jpg);
+  }
+}
+
+.panel-010 {
+  background-image: url(../../public/images/background-pics/path-010.jpg);
+
+  .profile-pic {
+    background-image: url(../../public/images/profile-pics/profile-mickey.jpg);
+  }
+}
+
+.panel-011 {
+  background-image: url(../../public/images/background-pics/path-011.jpg);
+
+  .profile-pic {
+    background-image: url(../../public/images/profile-pics/profile-mickey.jpg);
+  }
+}
+
+.panel-012 {
+  background-image: url(../../public/images/background-pics/path-012.jpg);
+
+  .profile-pic {
+    background-image: url(../../public/images/profile-pics/profile-mickey.jpg);
+  }
+}
+
+.panel-013 {
+  background-image: url(../../public/images/background-pics/path-013.jpg);
+
+  .profile-pic {
+    background-image: url(../../public/images/profile-pics/profile-mickey.jpg);
+  }
+}
+
+.panel-014 {
+  background-image: url(../../public/images/background-pics/path-014.jpg);
+
+  .profile-pic {
+    background-image: url(../../public/images/profile-pics/profile-mickey.jpg);
+  }
+}
 
 .panel > * {
   margin: 0;
@@ -79,18 +220,13 @@ body {
 .panel.open-active > *:first-child { transform: translateY(0); }
 .panel > *:last-child { transform: translateY(100%); }
 .panel.open-active > *:last-child { transform: translateY(0); }
-
-.panel p {
-  // text-transform: uppercase;
-  text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
-  font-size: 2em;
+.panel.open-active > * {
+  background: rgba(17, 25, 29, 0.7);
 }
-
 .panel p:nth-child(2) {
-  font-size: 4em;
+
 }
 
 .panel.open {
-  font-size: 40px;
   flex: 5;
 }

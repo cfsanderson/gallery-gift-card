@@ -7,7 +7,7 @@ function toggleOpen() {
 }
 
 function toggleActive(e) {
-  if(e.propertyName.includes('flex')) {
+  if (e.propertyName.includes('flex')) {
     this.classList.toggle('open-active');
   }
 }
@@ -16,7 +16,7 @@ panels.forEach(panel => panel.addEventListener('click', toggleOpen));
 panels.forEach(panel => panel.addEventListener('transitionend', toggleActive));
 
 const main = () => {
-  document.querySelector('h1').textContent += '?'
+  console.log('Made with <3 at The Iron Yard');
 }
 
 document.addEventListener('DOMContentLoaded', main)
