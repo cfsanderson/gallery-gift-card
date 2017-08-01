@@ -49,7 +49,6 @@ Open up index.html and copy one of the divs in the "panels" section. It will loo
 When you are ready to ship off your code for a pull request, make sure you are still on your branch and do a
 - `git add .`
 - `git commit -m "<your message here>"`
-- `git push`
 - `git push --set-upstream origin <name of your branch>`
 - then head on over to your commit on Github and click that big green "Compare & pull request" button.  
 
