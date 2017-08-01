@@ -1,19 +1,20 @@
 # Gallery Gift Card
 
-The basic functionality is here but it will still take some finessing to make it work smoothly. I searched Unsplash.com for "paths" and grabbed the first bunch of images that I saw. I like the theme of paths and thought it would tie into the theme well but I am open to whatever.
+The basic functionality is here but there is still some finessing that needs to happen to make it work smoothly.  
+
+I dropped in a bunch of Unsplash images of "paths". I like that theme but I am open to whatever design-wise.
 
 ## TODOs...
-- [ ] Write a brief "how to" with basic instructions for cloning the repo, adding personal content, and making a PR.
+- [ ] Refine the "how to" section below with clear instructions for cloning the repo, adding personal content, and making a PR.
 - [ ] Fix the overlay animation so that it doesn't come in on each individual element. It should be one solid overlay (kinda lika modal).
-- [ ] Before being clicked each section should be the height of the profile pic and THEN expand to full height and include the text.
+- [ ] Before being clicked, each section should be the height of the profile pic and THEN expand to full height and include the text. C'mon flexbox.
 - [ ] Better name than "Gallery"
 - [ ] More info in the header?
 - [ ] Add a footer?
 - [ ] Responsive layout for nice mobile experience.
 - [ ] Add global styles?
   - [ ] Fonts
-  - [ ] Colors
-
+  - [ ] Colors  
 
 ## Getting Started
 This project was built with the delta stack of Jason's app-app boilerplate. To get started simply...
@@ -37,6 +38,7 @@ Open up index.html and copy one of the divs in the "panels" section. It will loo
   </section>
 </div>
 ```
+
 ## Adding Content:
 - Change the 3 digit portion of the second class name to the next in sequence (e.g. profile-002 would be next).
 - Update the `h2` with your first and last name and drop a nice message in the `p`s within the section below that.
@@ -49,6 +51,7 @@ When you are ready to ship off your code for a pull request, make sure you are s
 - `git commit -m "<your message here>"`
 - `git push`
 - `git push --set-upstream origin <name of your branch>`
-- then head on over to your commit on Github and click that big green "Compare & pull request" button.
+- then head on over to your commit on Github and click that big green "Compare & pull request" button.  
 
-Thanks for contributing!!!
+
+### Thanks for contributing!!!
