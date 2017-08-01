@@ -45,7 +45,7 @@ Open up index.html and copy one of the divs in the "panels" section. It will loo
   - There are a few background pics already in the `/public/images/background-pics` folder but feel free to add your own too. Try to keep it relatively small so that page loads don't suffer too much.
 
 ## Submitting Changes
-When you are ready to ship off your code for a pull request, Make sure you are still on your branch and do a
+When you are ready to ship off your code for a pull request, make sure you are still on your branch and do a
 - `git add .`
-- `git commit -m "<your meassage here>"`
+- `git commit -m "<your message here>"`
 - `git push`
