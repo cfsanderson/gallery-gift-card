@@ -78,11 +78,10 @@ When you are ready to submit your code for a pull request, make sure you are sti
 ### Thanks for contributing!!!
 
 ## TODOs...
-- [ ] Refine the "how to" section below with clear instructions for cloning the repo, adding personal content, and making a PR.
 - [ ] Fix the overlay animation so that it doesn't come in on each individual element. It should be one solid overlay (kinda lika modal).
-- [ ] Before being clicked, each section should be the height of the profile pic and THEN expand to full height and include the text. C'mon flexbox.
-- [ ] Better name than "Gallery"
-- [ ] More info in the header?
+- [ ] Before being clicked, each section should be the height of the profile pic and THEN expand to full height and include the text.
+- [ ] Better name than "Gallery" for h1.
+- [ ] More info/instructions in the header?
   - [ ] sticky header?
 - [ ] Add a footer?
 - [ ] Responsive layout for nice mobile experience.
