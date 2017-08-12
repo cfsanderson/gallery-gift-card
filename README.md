@@ -20,17 +20,20 @@ To get started run these commands in your terminal...
 - `atom .` or open in your text editor of choice.
 - `yarn start` to start the dev server so you can see changes immediately.  
 
-Open up index.html and you can either update one of the existing `panel` divs or copy/pasta and existing one and make it your own. If you are using one of pre-existing divs it will look something like this...
+Open up index.html and you can either update one of the existing `panel-000` divs or copy/pasta an existing one and make it your own. If you are using one of the pre-existing divs it will look something like this...
 
 ```
-<div class="panel panel-001">
-  <h2>Firstand Lastname</h2>
-  <div>
-    <div class="profile-pic" alt="profile picture"></div>
+<div class="panel-001">
+  <div class="panel">
+    <h2>Your Name Here</h2>
+    <div>
+      <div class="profile-pic" alt="my profile picture"></div>
+    </div>
+    <section>
+      <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </section>
   </div>
-  <section>
-    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </section>
 </div>
 ```  
 
@@ -45,18 +48,20 @@ Open up index.html and you can either update one of the existing `panel` divs or
 
 When you are done you should end up with a div that looks like this in index.html...
 ```
-<div class="panel panel-MaDe">
-  <h2>Mark Dewey</h2>
-  <div>
-    <div class="profile-pic" alt="profile picture"></div>
+<div class="panel-MaDe">
+  <div class="panel">
+    <h2>Mark Dewey</h2>
+    <div>
+      <div class="profile-pic" alt="Mark Dewey's profile picture"></div>
+    </div>
+    <section>
+      <p>I love The Iron Yard! This has been a life-changing experience for me and I'm so grateful for the investment that you have made in my life!</p>
+    </section>
   </div>
-  <section>
-    <p>I love The Iron Yard! This has been a life-changing experience for me and I'm so grateful for the investment that you have made in my life!</p>
-  </section>
 </div>
 ```
 
-and a corresponding declaration block in `_panels.scss` that looks like this...  
+and also uptdate the corresponding declaration block in `_panels.scss` that will look like this...  
 
 ```
 .panel-MaDe {
@@ -78,13 +83,10 @@ When you are ready to submit your code for a pull request, make sure you are sti
 ### Thanks for contributing!!!
 
 ## TODOs...
-- [ ] Fix the overlay animation so that it doesn't come in on each individual element. It should be one solid overlay (kinda lika modal).
-- [ ] Before being clicked, each section should be the height of the profile pic and THEN expand to full height and include the text.
+- [x] Fix the overlay animation so that it doesn't come in on each individual element. It should be one solid overlay (kinda like a modal).
+- [x] Before being clicked, each section should be the height of the profile pic and THEN expand to full height and include the text.
 - [ ] Better name than "Gallery" for h1.
 - [ ] More info/instructions in the header?
   - [ ] sticky header?
 - [ ] Add a footer?
 - [ ] Responsive layout for nice mobile experience.
-- [ ] Add global styles?
-  - [ ] Fonts
-  - [ ] Colors  
