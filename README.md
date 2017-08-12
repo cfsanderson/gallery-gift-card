@@ -15,12 +15,12 @@ This project was built with the delta stack of the [`create-app-app` boilerplate
 To get started run these commands in your terminal...
 - `git clone git@github.com:cfsanderson/gallery-gift-card.git`
 - `cd gallery-gift-card`
-- `git checkout -b <your-name-here>`
+- `git checkout -b <name of your branch>` I suggest naming your branch after yourself.
 - `yarn`
 - `atom .` or open in your text editor of choice.
 - `yarn start` to start the dev server so you can see changes immediately.  
 
-Open up index.html and copy one of the divs in the "panels" section. It will look something like this...
+Open up index.html and you can either update one of the existing `panel` divs or copy/pasta and existing one and make it your own. If you are using one of pre-existing divs it will look something like this...
 
 ```
 <div class="panel panel-001">
@@ -35,19 +35,45 @@ Open up index.html and copy one of the divs in the "panels" section. It will loo
 ```  
 
 ## Adding Content:
-- Change the 3 digit portion of the second class name to the first 2 letters of your first and last name (e.g. "profile-002" would become "profile-JaPe" for Jason Perry).
-- Update the `h2` with your first and last name
+- Change the 3 digit portion of the second class name on your div to the first 2 letters of your first and last name (e.g. "profile-002" would become "profile-MaDe" for Mark Dewey) This will help us to alphabetize the divs later by name.
+- Update the `h2` with your full name.
 - Copy your personal message to the staff into the `p` tags in the section below that.
-- Next, head on over to `screen.scss` and add your profile pic and background pic to the appropriate section (e.g. `.panel-003`) (or copy/pasta a new one.)
-  - There are a few background pics already in the `/public/images/background-pics` folder but feel free to add your own too. Try to keep it relatively small so that page loads don't suffer too much.
+- Next, head on over to `_panels.scss` and find the declaration block number that you changed in `index.html` and update it with your new class name (e.g. `.profile-002` becomes `.profile-MaDe` following the example above).
+- Copy your profile and background pics into the appropriate directories (`./public/images/background-pics` or `./public/images/profile-pics`).
+- Update the background-image url in your declartion block.
+  - _Use good quality photos but keep in mind that if your picture file is too large, it will be compressed to allow for faster page load times._
+
+When you are done you should end up with a div that looks like this in index.html...
+```
+<div class="panel panel-MaDe">
+  <h2>Mark Dewey</h2>
+  <div>
+    <div class="profile-pic" alt="profile picture"></div>
+  </div>
+  <section>
+    <p>I love The Iron Yard! This has been a life-changing experience for me and I'm so grateful for the investment that you have made in my life!</p>
+  </section>
+</div>
+```
+
+and a corresponding declaration block in `_panels.scss` that looks like this...  
+
+```
+.panel-MaDe {
+  background-image: url(../../public/images/background-pics/my-cool-background.jpg);
+
+  .profile-pic {
+    background-image: url(../../public/images/profile-pics/marks-ugly-mug.jpg);
+  }
+}
+```  
 
 ## Submitting Changes
-When you are ready to ship off your code for a pull request, make sure you are still on your branch and do a
+When you are ready to submit your code for a pull request, make sure you are still on your branch and do a
 - `git add .`
 - `git commit -m "<your message here>"`
 - `git push --set-upstream origin <name of your branch>`
 - then head on over to your commit on Github and click that big green "Compare & pull request" button.  
-
 
 ### Thanks for contributing!!!
 

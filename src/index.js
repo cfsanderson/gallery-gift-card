@@ -1,4 +1,6 @@
 import './styles/screen.scss'
+import './styles/_panels.scss'
+import './styles/_utility.scss'
 
 const panels = document.querySelectorAll('.panel')
 
@@ -27,9 +29,3 @@ if (module.hot) {
   module.hot.dispose(() => window.location.reload())
   module.hot.accept(err => console.error(err))
 }
-
-/*
-TODOs:
-- [ ] update styles
-- [ ]
-*/
