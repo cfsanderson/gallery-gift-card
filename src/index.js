@@ -1,22 +1,22 @@
 import './styles/screen.scss'
 
-const panels = document.querySelectorAll('.panel');
+const panels = document.querySelectorAll('.panel')
 
-function toggleOpen() {
-  this.classList.toggle('open');
+function toggleOpen () {
+  this.classList.toggle('open')
 }
 
-function toggleActive(e) {
+function toggleActive (e) {
   if (e.propertyName.includes('flex')) {
-    this.classList.toggle('open-active');
+    this.classList.toggle('open-active')
   }
 }
 
-panels.forEach(panel => panel.addEventListener('click', toggleOpen));
-panels.forEach(panel => panel.addEventListener('transitionend', toggleActive));
+panels.forEach(panel => panel.addEventListener('click', toggleOpen))
+panels.forEach(panel => panel.addEventListener('transitionend', toggleActive))
 
 const main = () => {
-  console.log('Made with <3 at The Iron Yard');
+  console.log('Made with <3 at The Iron Yard')
 }
 
 document.addEventListener('DOMContentLoaded', main)
@@ -27,3 +27,9 @@ if (module.hot) {
   module.hot.dispose(() => window.location.reload())
   module.hot.accept(err => console.error(err))
 }
+
+/*
+TODOs:
+- [ ] update styles
+- [ ]
+*/

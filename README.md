@@ -10,6 +10,7 @@ I dropped in a bunch of Unsplash images of "paths". I like that theme but I am o
 - [ ] Before being clicked, each section should be the height of the profile pic and THEN expand to full height and include the text. C'mon flexbox.
 - [ ] Better name than "Gallery"
 - [ ] More info in the header?
+  - [ ] sticky header?
 - [ ] Add a footer?
 - [ ] Responsive layout for nice mobile experience.
 - [ ] Add global styles?
