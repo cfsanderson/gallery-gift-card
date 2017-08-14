@@ -41,9 +41,9 @@ Open up index.html and you can either update one of the existing `panel-000` div
 - Change the 3 digit portion of the second class name on your div to the first 2 letters of your first and last name (e.g. "profile-002" would become "profile-MaDe" for Mark Dewey) This will help us to alphabetize the divs later by name.
 - Update the `h2` with your full name.
 - Copy your personal message to the staff into the `p` tags in the section below that.
-- Next, head on over to `_panels.scss` and find the declaration block number that you changed in `index.html` and update it with your new class name (e.g. `.profile-002` becomes `.profile-MaDe` following the example above).
+- Next, head on over to `_panels.scss` and find the declaration block number that you changed in `index.html` and update it with your new class name (e.g. `.panel-002` becomes `.panel-MaDe` following the example above).
 - Copy your profile and background pics into the appropriate directories (`./public/images/background-pics` or `./public/images/profile-pics`).
-- Update the background-image url in your declartion block.
+- Update the background-image url in your declaration block.
   - _Use good quality photos but keep in mind that if your picture file is too large, it will be compressed to allow for faster page load times._
 
 When you are done you should end up with a div that looks like this in index.html...
