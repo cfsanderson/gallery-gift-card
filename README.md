@@ -12,10 +12,10 @@ The styles and functionality of the site are already done for you so you only ne
 
 This project was built with the delta stack of the [`create-app-app` boilerplate](https://yarnpkg.com/en/package/create-app-app) which is plain HTML, CSS (Sass), and vanilla Javascript (ES2015). If you've come through Jason's course this should be familiar to you. In case you haven't, make sure that you have `yarn` installed before starting the project. If you are unsure, run `which yarn` in your terminal and you should return something like `/usr/local/bin/yarn`. You can also run `yarn --version` which should give you a version number such as `0.27.5`. If you don't get a result from these then you will need to run [`brew install yarn`](https://yarnpkg.com/en/docs/install) to get the yarn package manager.  
 
-To get started run these commands in your terminal...
-- `git clone git@github.com:cfsanderson/gallery-gift-card.git`
+To get started:
+- fork the repository from github
+- `git clone git@github.com:[your username]/gallery-gift-card.git`
 - `cd gallery-gift-card`
-- `git checkout -b <name of your branch>` I suggest naming your branch after yourself.
 - `yarn`
 - `atom .` or open in your text editor of choice.
 - `yarn start` to start the dev server so you can see changes immediately.  
@@ -78,8 +78,10 @@ and also update the corresponding CSS declaration block in `_panels.scss` that w
 When you are ready to submit your code for a pull request, make sure you are still on your branch and do a
 - `git add .`
 - `git commit -m "<your message here>"`
-- `git push --set-upstream origin <name of your branch>`
-- then head on over to your commit on Github and click that big green "Compare & pull request" button.  
+- `git push`
+- The changes are pushed to your forked repo
+- create a Pull request to merge your changes
+- ![alt text](../src/images/background-pics/pull-request-process-png "pull request")
 
 ### Thanks for contributing!!!
 
