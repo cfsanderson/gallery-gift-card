@@ -1,6 +1,6 @@
 import './styles/screen.scss'
-import './styles/_panels.scss'
-import './styles/_utility.scss'
+// import './styles/_panels.scss'
+// import './styles/_utility.scss'
 
 const panels = document.querySelectorAll('.panel')
 
