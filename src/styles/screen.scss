@@ -29,6 +29,7 @@ body {
     font-family: $font-body;
     font-size: 1.2em;
     font-weight: 300;
+    max-width: 500px;
   }
 }
 
@@ -67,11 +68,9 @@ html {
   color: #e8e8e8;
   text-align: center;
   transition:
-    font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11),
-    flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11),
-    background 0.5s;
-  background-size: cover;
-  background-position: center;
+    font-size 1s cubic-bezier(0.61, -0.19, 0.7, -0.11),
+    flex 1s cubic-bezier(0.61, -0.19, 0.7, -0.11),
+    background 0.8s;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -100,7 +99,7 @@ html {
     flex-direction: column;
     max-height: 0;
     opacity: 0;
-    transition: max-height 0.2s, opacity 1.5s;
+    transition: max-height 0.2s, opacity 1.7s;
     overflow: hidden;
 
     p {

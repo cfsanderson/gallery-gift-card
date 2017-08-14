@@ -61,17 +61,18 @@ When you are done you should end up with a div that looks like this in index.htm
 </div>
 ```
 
-and also uptdate the corresponding declaration block in `_panels.scss` that will look like this...  
+and also update the corresponding CSS declaration block in `_panels.scss` that will look something like this...  
 
 ```
 .panel-MaDe {
-  background-image: url(../../public/images/background-pics/my-cool-background.jpg);
+  background: url(../../public/images/background-pics/my-cool-background.jpg) no-repeat center center;
+  background-size: cover;
 
   .profile-pic {
     background-image: url(../../public/images/profile-pics/marks-ugly-mug.jpg);
   }
 }
-```  
+```   
 
 ## Submitting Changes
 When you are ready to submit your code for a pull request, make sure you are still on your branch and do a
