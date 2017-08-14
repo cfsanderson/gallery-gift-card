@@ -80,8 +80,8 @@ When you are ready to submit your code for a pull request, make sure you are sti
 - `git commit -m "<your message here>"`
 - `git push`
 - The changes are pushed to your forked repo
-- create a Pull request to merge your changes
-- ![alt text](../src/images/background-pics/pull-request-process-png "pull request")
+- create a Pull Request to merge your changes
+![Pull Request screen shot](/src/images/background-pics/pull-request-process.png "pull request")
 
 ### Thanks for contributing!!!
 
