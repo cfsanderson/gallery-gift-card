@@ -30,6 +30,7 @@ body {
     font-size: 1.2em;
     font-weight: 300;
     max-width: 500px;
+    line-height: 1.7em;
   }
 }
 
@@ -147,14 +148,14 @@ html {
   h2 {
     max-height: 400px;
     overflow: visible;
-    padding: 25px;
+    padding: 50px;
     opacity: 1;
   }
 
   section {
-    max-height: 1000px;
+    max-height: 2000px;
     overflow: visible;
-    padding: 25px 50px;
+    padding: 50px;
     opacity: 1;
   }
 }
