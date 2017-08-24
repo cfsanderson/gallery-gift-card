@@ -43,12 +43,21 @@
   }
 }
 
-.panel-002 {
-  background: url(../images/background-pics/path-002.jpg) no-repeat center center;
+.panel-BrRi {
+  background: url(../images/background-pics/brunoBack.jpg) no-repeat center center;
   background-size: cover;
 
+  i {
+    font-size: 600%;
+    padding: 0.5em 0 0 0.1em;
+  }
+
+  h2, p {
+    font-family: Helvetica, Impact, sans-serif;
+  }
+
   .profile-pic {
-    background: url(../images/profile-pics/avatar.png) center / contain;
+    background: url(../images/profile-pics/BrunoSmall.jpg) center / contain;
   }
 }
 
