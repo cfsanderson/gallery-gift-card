@@ -13,9 +13,12 @@ The styles and functionality of the site are already done for you so you only ne
 This project was built with the delta stack of the [`create-app-app` boilerplate](https://yarnpkg.com/en/package/create-app-app) which is plain HTML, CSS (Sass), and vanilla Javascript (ES2015). If you've come through Jason's course this should be familiar to you. In case you haven't, make sure that you have `yarn` installed before starting the project. If you are unsure, run `which yarn` in your terminal and you should return something like `/usr/local/bin/yarn`. You can also run `yarn --version` which should give you a version number such as `0.27.5`. If you don't get a result from these then you will need to run [`brew install yarn`](https://yarnpkg.com/en/docs/install) to get the yarn package manager.  
 
 To get started:
-- fork the repository from github
+- fork the repository from Github
 - `git clone git@github.com:[your username]/gallery-gift-card.git`
+  - Please make sure and change the [your username] portion of the url to your actual username. Do not use "cfsanderson" here.
 - `cd gallery-gift-card`
+- `git remote -v`
+  - This is just a check to ensure that it returns the name of your forked repository. If it does not, please direct message Caleb, Liz, Derek, or Kristen to troubleshoot.
 - `yarn`
 - `atom .` or open in your text editor of choice.
 - `yarn start` to start the dev server so you can see changes immediately.  
