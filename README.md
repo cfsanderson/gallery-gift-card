@@ -14,9 +14,9 @@ This project was built with the delta stack of the [`create-app-app` boilerplate
 
 To get started:
 - fork the repository from github
-- `git clone git@github.com:[your username]/gallery-gift-card.git`  **Please change the [your username]**
+- `git clone git@github.com:[your username]/gallery-gift-card.git`  **Please change the [your username].**
 - `cd gallery-gift-card`
-- `git remote -v` **Ensure it says origin and the name of your forked repository.**
+- `git remote -v` **Ensure it says origin and the name of your forked repository.** If it does not please check the following documentation https://help.github.com/articles/changing-a-remote-s-url/
 - `yarn`
 - `atom .` or open in your text editor of choice.
 - `yarn start` to start the dev server so you can see changes immediately.  
