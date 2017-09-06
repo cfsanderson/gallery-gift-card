@@ -37,47 +37,74 @@
 }
 
 .panel-JeDi {
-  background: url(../images/background-pics/path-001.jpg) no-repeat center center;
-  background-size: cover;
+   background: url(../images/background-pics/path-001.jpg) no-repeat center center;
+   background-size: cover;
 
   .profile-pic {
     background: url(../images/profile-pics/Jeremiah_Diboll.jpg) center / contain;
   }
 }
 
-.panel-002 {
+.panel-VaBe {
+  background: url(../images/background-pics/path-001.jpg) no-repeat center center;
+  background-size: cover;
+
+  .profile-pic {
+    background: url(../images/profile-pics/Val.jpg) center / contain;
+  }
+}
+
+.panel-ShMo {
+  background: url(../images/background-pics/path-014.jpg) no-repeat center center;
+  background-size: cover;
+
+  .profile-pic {
+    background: url(../images/profile-pics/Sheri.jpg) center / contain;
+  }
+}
+
+.panel-TaCo {
+  background: url(../images/background-pics/taylorcox-bg.jpg) no-repeat center center;
+  background-size: cover;
+
+  .profile-pic {
+    background: url(../images/profile-pics/taylor-cox.jpg) center / contain;
+  }
+}
+
+.panel-KeVa {
   background: url(../images/background-pics/path-002.jpg) no-repeat center center;
   background-size: cover;
 
   .profile-pic {
-    background: url(../images/profile-pics/avatar.png) center / contain;
+    background: url(../images/profile-pics/kenia.jpg) center / contain;
   }
 }
 
-.panel-003 {
-  background: url(../images/background-pics/path-003.jpg) no-repeat center center;
+.panel-BrRi {
+  background: url(../images/background-pics/brunoBack.jpg) no-repeat center center;
   background-size: cover;
 
+  i {
+    font-size: 500%;
+    padding: 0.5em 0 0 0.1em;
+  }
+
+  h2, p {
+    font-family: Helvetica, Impact, sans-serif;
+  }
+
   .profile-pic {
-    background: url(../images/profile-pics/avatar.png) center / contain;
+    background: url(../images/profile-pics/BrunoSmall.jpg) center / contain;
   }
 }
 
-.panel-004 {
-  background: url(../images/background-pics/path-004.jpg) no-repeat center center;
-  background-size: cover;
-
-  .profile-pic {
-    background: url(../images/profile-pics/avatar.png) center / contain;
-  }
-}
-
-.panel-005 {
+.panel-AmWi {
   background: url(../images/background-pics/path-005.jpg) no-repeat center center;
   background-size: cover;
 
   .profile-pic {
-    background: url(../images/profile-pics/avatar.png) center / contain;
+    background: url(../images/profile-pics/amie-tiy.jpg) center / contain;
   }
 }
 
