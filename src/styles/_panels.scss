@@ -1,5 +1,6 @@
 .panel-krsw {
-  background: url(../images/background-pics/path-001.jpg) no-repeat center center;
+  background: url(../images/background-pics/path-001.jpg) no-repeat center
+    center;
   background-size: cover;
 
   .profile-pic {
@@ -8,7 +9,8 @@
 }
 
 .panel-CaSa {
-  background: url(../images/background-pics/path-011.jpg) no-repeat center center;
+  background: url(../images/background-pics/path-011.jpg) no-repeat center
+    center;
   background-size: cover;
 
   .profile-pic {
@@ -31,6 +33,15 @@
 
   .profile-pic {
     background: url(../images/profile-pics/sara.jpg) center / contain;
+  }
+}
+
+.panel-JeDi {
+   background: url(../images/background-pics/path-001.jpg) no-repeat center center;
+   background-size: cover;
+
+  .profile-pic {
+    background: url(../images/profile-pics/Jeremiah_Diboll.jpg) center / contain;
   }
 }
 
