@@ -106,12 +106,21 @@
   }
 }
 
-.panel-006 {
-  background: url(../images/background-pics/path-006.jpg) no-repeat center center;
+.panel-KaTr {
+  background: url(../images/background-pics/KaTr-bg.jpg) no-repeat center center;
   background-size: cover;
 
   .profile-pic {
-    background: url(../images/profile-pics/avatar.png) center / contain;
+    background: url(../images/profile-pics/katherine.jpg) center / contain;
+  }
+}
+
+.panel-SaVe {
+  background: url(../images/background-pics/SaVe-bg.jpg) no-repeat center center;
+  background-size: cover;
+
+  .profile-pic {
+    background: url(../images/profile-pics/sarrah.jpg) center / contain;
   }
 }
 
