@@ -34,6 +34,15 @@
   }
 }
 
+.panel-JoHu {
+  background: url(../images/background-pics/path-004.jpg) no-repeat center center;
+  background-size: cover;
+
+  .profile-pic {
+    background: url(../images/profile-pics/jonathan.jpg) center / contain;
+  }
+}
+
 .panel-JeDi {
   background: url(../images/background-pics/path-001.jpg) no-repeat center center;
   background-size: cover;
@@ -103,7 +112,7 @@
   background-size: cover;
 
   .profile-pic {
-    background: url(../images/profile-pics/amie-tiy.jpg) center / contain;
+    background: url(../images/profile-pics/amie.jpg) center / contain;
   }
 }
 
@@ -125,6 +134,35 @@
   }
 }
 
+.panel-BrSu {
+  background: url(../images/background-pics/path-006.jpg) no-repeat center center;
+  background-size: cover;
+
+  .profile-pic {
+    background: url(../images/profile-pics/BrandynSullins.jpg) center / contain;
+    background-size: cover;
+  }
+}
+
+.panel-LiTi {
+  background: url(../images/background-pics/LiTi-bg.jpg) no-repeat center center;
+  background-size: cover;
+
+  .profile-pic {
+    background: url(../images/profile-pics/tiller.jpeg) center / contain;
+    background-size: cover;
+  }
+}
+
+.panel-MiNa {
+  background: url(../images/background-pics/MiNa-bg.jpg) no-repeat center center;
+  background-size: cover;
+
+  .profile-pic {
+    background: url(../images/profile-pics/mnash.jpeg) center / contain;
+  }
+}
+  
 .panel-001 {
   background: url(../images/background-pics/coffee-and-computer.jpeg) no-repeat center center;
   background-size: cover;
@@ -132,14 +170,14 @@
   .profile-pic {
     background: url(../images/profile-pics/pic-of-Bree.jpg) center / contain;
   }
-}
+ }
 
-.panel-002 {
-  background: url(../images/background-pics/path-002.jpg) no-repeat center center;
+.panel-JuBz {
+  background: url(../images/background-pics/path-009.jpg) no-repeat center center;
   background-size: cover;
 
   .profile-pic {
-    background: url(../images/profile-pics/avatar.png) center / contain;
+    background: url(../images/profile-pics/JuliusBzozowski.jpg) center / contain;
   }
 }
 
@@ -176,6 +214,7 @@
 
   .profile-pic {
     background: url(../images/profile-pics/avatar.png) center / contain;
+    background-size: cover;
   }
 }
 
