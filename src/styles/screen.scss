@@ -67,7 +67,6 @@ html {
 
 .panel {
   color: #e8e8e8;
-  text-align: left;
   transition:
     font-size 1s cubic-bezier(0.61, -0.19, 0.7, -0.11),
     flex 1s cubic-bezier(0.61, -0.19, 0.7, -0.11),
@@ -102,6 +101,8 @@ html {
     opacity: 0;
     transition: max-height 0.2s, opacity 1.7s;
     overflow: hidden;
+    text-align: left;
+
 
     p {
       font-size: 1em;
@@ -153,7 +154,7 @@ html {
   }
 
   section {
-    max-height: 2000px;
+    max-height: 3500px;
     overflow: visible;
     padding: 50px;
     opacity: 1;
