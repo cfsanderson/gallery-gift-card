@@ -27,10 +27,27 @@ body {
   section,
   p {
     font-family: $font-body;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 300;
-    max-width: 500px;
+    max-width: 768px;
     line-height: 1.7em;
+  }
+
+  @media (max-width: 640px) {
+    h1,
+    h2 {
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 2.25em;
+    }
+  }
+
+  @media (max-width: 440px) {
+    p {
+      font-size: 1.25em;
+    }
   }
 }
 
@@ -104,9 +121,9 @@ html {
     text-align: left;
 
 
-    p {
-      font-size: 1em;
-    }
+    // p {
+    //   font-size: 1em;
+    // }
   }
 }
 
