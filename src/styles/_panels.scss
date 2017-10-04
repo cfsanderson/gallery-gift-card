@@ -325,3 +325,17 @@
     background: url(../images/profile-pics/avatar.png) center / contain;
   }
 }
+
+.panel-MiMa {
+  background: url(../images/background-pics/path-013.jpg) no-repeat center center;
+  background-size: cover;
+
+  .profile-pic {
+    background: url(../images/profile-pics/miguel.jpg) center / contain;
+    border: 1px solid #fff;
+  }
+
+  span {
+    color: darkred;
+  }
+}
