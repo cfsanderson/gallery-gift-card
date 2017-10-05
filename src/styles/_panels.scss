@@ -199,6 +199,24 @@
   }
 }
 
+.panel-GrGa {
+  background: url(../images/background-pics/path-003.jpg) no-repeat center center;
+  background-size: cover;
+
+  .profile-pic {
+    background: url(../images/profile-pics/Greg-Garville-Profile.jpg) center / contain;
+  }
+}
+
+.panel-CoCl {
+  background: url(../images/background-pics/path-010.jpg) no-repeat center center;
+  background-size: cover;
+
+  .profile-pic {
+    background: url(../images/profile-pics/Cody-02.jpg) center / contain;
+  }
+}
+
 .panel-MiBr {
   background: url(../images/background-pics/BlueMug.png) no-repeat center center;
   background-size: cover;
@@ -208,8 +226,8 @@
   }
 }
 
-.panel-002 {
-  background: url(../images/background-pics/path-002.jpg) no-repeat center center;
+.panel-001 {
+  background: url(../images/background-pics/path-001.jpg) no-repeat center center;
   background-size: cover;
 
   .profile-pic {
@@ -226,14 +244,6 @@
   }
 }
 
-.panel-004 {
-  background: url(../images/background-pics/path-004.jpg) no-repeat center center;
-  background-size: cover;
-
-  .profile-pic {
-    background: url(../images/profile-pics/avatar.png) center / contain;
-  }
-}
 
 .panel-005 {
   background: url(../images/background-pics/path-005.jpg) no-repeat center center;
@@ -323,5 +333,19 @@
 
   .profile-pic {
     background: url(../images/profile-pics/avatar.png) center / contain;
+  }
+}
+
+.panel-MiMa {
+  background: url(../images/background-pics/path-013.jpg) no-repeat center center;
+  background-size: cover;
+
+  .profile-pic {
+    background: url(../images/profile-pics/miguel.jpg) center / contain;
+    border: 1px solid #fff;
+  }
+
+  span {
+    color: darkred;
   }
 }
