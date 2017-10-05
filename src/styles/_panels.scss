@@ -235,6 +235,15 @@
   }
 }
 
+.panel-002 {
+  background: url(../images/background-pics/path-002.jpg) no-repeat center center;
+  background-size: cover;
+
+  .profile-pic {
+    background: url(../images/profile-pics/avatar.png) center / contain;
+  }
+}
+
 .panel-003 {
   background: url(../images/background-pics/path-003.jpg) no-repeat center center;
   background-size: cover;
@@ -244,6 +253,14 @@
   }
 }
 
+.panel-004 {
+  background: url(../images/background-pics/path-004.jpg) no-repeat center center;
+  background-size: cover;
+
+  .profile-pic {
+    background: url(../images/profile-pics/avatar.png) center / contain;
+  }
+}
 
 .panel-005 {
   background: url(../images/background-pics/path-005.jpg) no-repeat center center;
@@ -341,7 +358,7 @@
   background-size: cover;
 
   .profile-pic {
-    background: url(../images/profile-pics/miguel.jpg) center / contain;
+    background: url(../images/profile-pics/miguel-malcolm.jpg) center / contain;
     border: 1px solid #fff;
   }
 
