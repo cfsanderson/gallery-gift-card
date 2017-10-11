@@ -53,7 +53,7 @@ body {
 
 html {
   box-sizing: border-box;
-  background: #e8e8e8;
+  background: #202428;
   font-family: 'helvetica neue', sans-serif;
 }
 
@@ -78,7 +78,6 @@ html {
   color: #f4f4f4;
   text-transform: uppercase;
   text-align: center;
-  // font-size: 2em;
   padding: 25px;
 }
 
@@ -98,9 +97,9 @@ html {
 .panel {
   color: #e8e8e8;
   transition:
-    font-size 1s cubic-bezier(0.61, -0.19, 0.7, -0.11),
-    flex 1s cubic-bezier(0.61, -0.19, 0.7, -0.11),
-    background 0.8s;
+    font-size 0.2s cubic-bezier(0.61, -0.19, 0.7, -0.11),
+    flex 0.2s cubic-bezier(0.61, -0.19, 0.7, -0.11),
+    background 0.5s;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -109,7 +108,7 @@ html {
   padding: 25px 0;
 
   .profile-pic {
-    transition: height 0.7s, width  0.7s;
+    transition: height 0.2s, width  0.2s;
     height: 75px;
     width: 75px;
     border-radius: 50%;
@@ -119,7 +118,7 @@ html {
   h2 {
     max-height: 0;
     opacity: 0;
-    transition: max-height 0, opacity 1.5s;
+    transition: max-height 0, opacity 1s;
     overflow: hidden;
     padding: 0;
   }
@@ -129,21 +128,16 @@ html {
     flex-direction: column;
     max-height: 0;
     opacity: 0;
-    transition: max-height 0.2s, opacity 1.7s;
+    transition: max-height 0.02s, opacity 1.7s;
     overflow: hidden;
     text-align: left;
-
-
-    // p {
-    //   font-size: 1em;
-    // }
   }
 }
 
 .panel > * {
   margin: 0;
   width: 100%;
-  transition: transform 0.5s;
+  transition: transform 0.01s;
   flex: 1 0 auto;
   display: flex;
   justify-content: center;
