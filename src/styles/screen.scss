@@ -69,6 +69,19 @@ html {
   padding: 25px;
 }
 
+.footer {
+  background: #202428;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f4f4f4;
+  text-transform: uppercase;
+  text-align: center;
+  // font-size: 2em;
+  padding: 25px;
+}
+
 *,
 *::before,
 *::after {
