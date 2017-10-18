@@ -1,5 +1,6 @@
 {
   "private": true,
+  "homepage": "thank-you-tiy.com",
   "scripts": {
     "deploy": "surge ./public --domain gallery-gift-card.caleb.surge.sh",
     "start": "webpack-dev-server",
