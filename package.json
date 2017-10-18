@@ -1,8 +1,7 @@
 {
   "private": true,
-  "homepage": "thank-you-tiy.com",
   "scripts": {
-    "deploy": "surge ./public --domain gallery-gift-card.caleb.surge.sh",
+    "deploy": "surge ./public --domain thank-you-tiy.surge.sh",
     "start": "webpack-dev-server",
     "prebuild": "rm -f public/index.html public/app-*.js public/vendor-*.js public/screen-*.css",
     "build": "NODE_ENV=production webpack --progress",
