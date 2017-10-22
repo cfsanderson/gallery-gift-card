@@ -87,12 +87,3 @@ When you are ready to submit your code for a pull request, make sure you are sti
 ![Pull Request screen shot](/src/images/background-pics/pull-request-process.png "pull request")
 
 ### Thanks for contributing!!!
-
-## TODOs...
-- [x] Fix the overlay animation so that it doesn't come in on each individual element. It should be one solid overlay (kinda like a modal).
-- [x] Before being clicked, each section should be the height of the profile pic and THEN expand to full height and include the text.
-- [ ] Better name than "Gallery" for h1.
-- [ ] More info/instructions in the header?
-  - [ ] sticky header?
-- [ ] Add a footer?
-- [ ] Responsive layout for nice mobile experience.
